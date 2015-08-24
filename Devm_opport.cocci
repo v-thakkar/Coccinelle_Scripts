@@ -80,6 +80,12 @@ regulator_unregister@p@p1(...);
 |
 acpi_dma_controller_unregister@p@p1(...);
 |
+snd_soc_register_component@p@p1(...);
+|
+snd_dmaengine_pcm_register@p@p1(...);
+|
+snd_dmaengine_pcm_unregister@p@p1(...);
+|
 spi_unregister_master@p@p1(...);
 |
 f@p1(...,c,...);
