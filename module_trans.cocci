@@ -1,5 +1,6 @@
 // This semantic patch is for module init/exit boiler plate code.
-// Here for example module_platform_driver transformation is shown but one can go for any other such transformation by doing necessary changes.
+// Here for example module_platform_driver transformation is shown but one can go for any other such transformation
+// by doing necessary changes.
 // More about this can be found at https://vthakkar1994.wordpress.com/2015/07/09/112/
 
 @r@
