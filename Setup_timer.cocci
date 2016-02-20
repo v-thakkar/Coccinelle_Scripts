@@ -1,5 +1,5 @@
-//This semantic patch is for setup_timer function.
-//More about the issue can be found at https://vthakkar1994.wordpress.com/2015/06/07/setup_timer-and-its-uses/
+//This semantic patch is for setup_timer function. This patch is now added in the Linux kernel. [https://goo.gl/oHdYfN]
+//More about the issue can be found at [https://vthakkar1994.wordpress.com/2015/06/07/setup_timer-and-its-uses/]
 
 @match_immediate_function_data_after_init_timer@
 expression e, func, da;
